@@ -1,0 +1,278 @@
+/*
+	Theme Name: Mochi Theme
+	Description: Theme by Moi
+	Version: 1
+	Author: Marine Jeannin (cool dev)
+*/
+
+@font-face {
+    font-family: 'Manrope';
+    src:    url('fonts/Manrope-Light.otf'),
+            url('fonts/Manrope-Light.ttf') format('truetype'),
+            url('fonts/Manrope-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope-bold';
+    src:    url('fonts/Manrope-Regular.otf'),
+            url('fonts/Manrope-Regular.ttf') format('truetype'),
+            url('fonts/Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.normalize{
+    margin: 0px 200px 0px 200px;
+}
+
+.main-container {
+    margin-top: 50px;
+}
+
+/* HEADER */
+
+.head-container {
+	background-image: url("./img/wallpaper-cut.JPG");
+    height: 150px;
+}
+
+.head-container > .normalize > .head-content > a {
+    padding: 35px 0 0 25px;
+    display:block;
+}
+
+.head-container > .normalize > .head-content > a > .head-img {
+    /* background-color: red; */
+    display: inline-block;
+    width: 9%;
+    min-width: 95px;
+}
+
+.head-container > .normalize > .head-content > a > .head-img > .logo-img {
+    height: 95px;
+    border-radius: 60px;
+}
+
+.head-container > .normalize > .head-content > a > .head-text {
+    /* background-color: green; */
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    padding: 25px 0 25px 7px;
+    text-shadow: 0px 1px 2px black;
+    color: white;
+    font-family: "Manrope";
+}
+
+.head-container > .normalize > .head-content > a > .head-text > .title-name{
+    font-size: 18px;
+}
+
+.head-container > .normalize > .head-content > a > .head-text > .subtitle{
+    font-size: 15px;
+}
+
+/* SIDEBAR */
+
+.sidebar-container, .articles-container {
+    display: inline-block;
+}
+
+form.search, input {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.sidebar-container {
+    width: 30%;
+    vertical-align: top;
+    margin-right: 15px
+    /* background-color: red; */
+    /* border-right: 0.2px solid grey; */
+}
+
+.sidebar-titles{
+    display: block;
+    color: #242F45;
+    margin: 5px 0px 5px 10px;
+    font-family: "Adamina";
+    font-size: 20px;
+    line-height: 33px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.sidebar-container > .menu-categories {
+    background-color: pink;
+}
+
+.menu-categories > .categories {
+    line-height: 32px;
+}
+
+.menu-categories {
+    padding-inline-start: 0;
+    padding: 10px;
+}
+
+.menu-categories > .cat-item {
+    display: block;
+    margin-top: 5px;
+}
+
+.menu-categories > .cat-item > a {
+    display: block;
+    color: #B78972;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Manrope-Bold";
+}
+
+/* ARTICLES */
+
+.articles-container {
+    width: 60%;
+    border-left: 1px solid #f0f0f0;
+}
+
+.articles-container > .articles {
+    width: 800px;
+    /* REMOVE */
+    /* display: none; */
+}
+
+.articles-container > .articles > .column > article {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+    margin: 0 0 15px 15px;
+}
+
+.articles-container > .articles > .column-one > article {
+    float: right;
+    margin: 0 15px 15px 0;
+}
+
+.date {
+    width: 100%;
+    display: block;
+    font-family: "Manrope";
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+    color: rgb(68, 68, 68);
+}
+.column {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.articles-container > .articles > .column > article > h2 > a {
+    font-family: "Adamina";
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.articles-container > .articles > .column > article > p {
+    font-family: "Manrope-bold";
+    font-size: 14px;
+    line-height: 23px;
+    color: black;
+}
+.view-article {
+    color: rgb(170, 133, 120);
+}
+
+h2 > .wp-post-image {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    width:350px;
+    height: auto;
+}
+
+.image-articles-container {
+    width: 350px;
+    height: 200px;
+    background-size:cover;
+}
+
+.article-content{
+    width: 69%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* CAROUSSEL */
+
+.sidebar-container > .sidebar > .menu-reports > .carrousel-container{
+    /* margin: 5px; */
+}
+
+.sidebar-container > .sidebar > .menu-reports > .carrousel-container > .carrousel-report {
+    margin-bottom: 15px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.slider {
+    width: 2000px;
+    height: 200px;
+}
+.slider > img {
+    /* margin-right: -3px; */
+    width: 300px;
+    height: 200px;
+}
+
+/* PAGE ARTICLE */
+
+
+.single-article-content {
+    padding: 30px;
+}
+
+.single-article-title {
+    font-family: "Adamina";
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.single-article-content > .wp-post-image {
+    width: 500px;
+}
+
+.single-article-content {
+    width: 100%;
+}
+
+.single-article-content > article {
+    position: relative;
+}
+
+.single-article-content > article > p {
+    font-family: "Manrope-bold";
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.image-text-container, .article-text-container {
+    display: inline-block;
+    max-width: 49%;
+    padding: 30px;
+    vertical-align: top;
+}
+
+.article-text-container {
+    transform: translateY(calc(30% - 15px));
+}
+
+.article-text-container p {
+    font-size: 15px;
+}
