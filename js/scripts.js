@@ -27,8 +27,6 @@
 				});
 		}
 		setTimeout(loop3, 1200);
-
-		
 	});
 	
 })(jQuery, this);
